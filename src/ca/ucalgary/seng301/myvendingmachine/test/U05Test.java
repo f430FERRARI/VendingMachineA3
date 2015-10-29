@@ -1,19 +1,20 @@
 package ca.ucalgary.seng301.myvendingmachine.test;
 
-import static org.junit.Assert.*;
-
-import org.junit.Before;
 import org.junit.Test;
+
+import ca.ucalgary.seng301.myvendingmachine.VendingMachineLogic;
+import ca.ucalgary.seng301.vendingmachine.hardware.SimulationException;
+import ca.ucalgary.seng301.vendingmachine.hardware.VendingMachine;
 
 public class U05Test {
 
-	@Before
-	public void setUp() throws Exception {
-	}
+	VendingMachine tMachine;
 
-	@Test
+	@Test(expected = SimulationException.class) // TODO
 	public void test() {
-		fail("Not yet implemented");
+		// Construct the vending machine
+		int[] coinKinds = { 0 };
+		tMachine = new VendingMachine(coinKinds, 1, 10, 10, 10);
+		new VendingMachineLogic(tMachine);
 	}
-
 }
