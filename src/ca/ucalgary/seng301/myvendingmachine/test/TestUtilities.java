@@ -1,4 +1,4 @@
-package ca.ucalgary.seng301.myvendingmachine;
+package ca.ucalgary.seng301.myvendingmachine.test;
 
 import java.util.ArrayList;
 import java.util.List;

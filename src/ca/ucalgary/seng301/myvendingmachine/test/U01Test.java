@@ -7,7 +7,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import ca.ucalgary.seng301.myvendingmachine.TestUtilities;
 import ca.ucalgary.seng301.myvendingmachine.VendingMachineLogic;
 import ca.ucalgary.seng301.vendingmachine.hardware.VendingMachine;
 
