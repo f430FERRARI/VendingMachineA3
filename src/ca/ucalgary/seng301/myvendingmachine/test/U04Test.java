@@ -10,7 +10,7 @@ public class U04Test {
 
 	VendingMachine tMachine;
 
-	@Test(expected = SimulationException.class) // TODO
+	@Test(expected = SimulationException.class) 
 	public void test() {
 		// Construct the vending machine
 		int[] coinKinds = { 1, 1 };

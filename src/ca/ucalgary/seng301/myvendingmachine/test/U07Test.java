@@ -21,7 +21,7 @@ public class U07Test {
 		new VendingMachineLogic(tMachine);
 	}
 
-	@Test(expected = IllegalArgumentException.class) // TODO
+	@Test(expected = IllegalArgumentException.class) 
 	public void test() {
 		// Configure the vending machine
 		List<String> popNames = new ArrayList<String>();

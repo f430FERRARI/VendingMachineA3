@@ -15,7 +15,7 @@ import ca.ucalgary.seng301.vendingmachine.hardware.DisabledException;
 import ca.ucalgary.seng301.vendingmachine.hardware.VendingMachine;
 
 public class T11Test {
-	// TODO
+
 	VendingMachine tMachine;
 
 	@Before

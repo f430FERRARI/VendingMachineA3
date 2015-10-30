@@ -22,7 +22,7 @@ public class U03Test {
 		new VendingMachineLogic(tMachine);
 	}
 
-	@Test(expected = SimulationException.class)		//TODO
+	@Test(expected = SimulationException.class)		
 	public void test() {
 		// Configure the vending machine
 		List<String> popNames = new ArrayList<String>();

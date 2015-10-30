@@ -52,7 +52,7 @@ public class U01Test {
 		// Compare vending machine stored contents with expected output
 		Object[] actualContents = TestUtilities.parseContents(TestUtilities.emptyContents(tMachine));
 		Object[] expectedContents = { 65, 0, "Coke", "water", "stuff" };
-		assertArrayEquals(expectedContents, actualContents);  //TODO
+		assertArrayEquals(expectedContents, actualContents);  
 	}
 
 }

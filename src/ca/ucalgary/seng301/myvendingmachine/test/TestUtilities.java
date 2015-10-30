@@ -71,14 +71,12 @@ public class TestUtilities {
 			} else if (item instanceof PopCan) {
 				testResult[i++] = ((PopCan) item).getName();
 			}
-			// TODO: IF not proper item
 		}
 		testResult[0] = totalChange;
 		return testResult;
 	}
 
 	public static Object[] parseContents(VendingMachineStoredContents contents) {
-		// TODO: If not proper items
 		int count = 0;
 		for (List<PopCan> popRack : contents.unsoldPopCans) {
 			for (PopCan pop : popRack) {

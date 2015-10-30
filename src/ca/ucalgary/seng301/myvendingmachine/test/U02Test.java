@@ -24,8 +24,7 @@ public class U02Test {
 		new VendingMachineLogic(tMachine);
 	}
 
-	@Test(expected = SimulationException.class) // TODO: Returns the wrong
-														// exception
+	@Test(expected = SimulationException.class) 
 	public void test() {
 
 		// Configure the vending machine
@@ -57,7 +56,7 @@ public class U02Test {
 		// Compare vending machine stored contents with expected output
 		Object[] actualContents = TestUtilities.parseContents(TestUtilities.emptyContents(tMachine));
 		Object[] expectedContents = { 65, 0, "Coke", "water", "stuff" };
-		assertArrayEquals(expectedContents, actualContents); //TODO
+		assertArrayEquals(expectedContents, actualContents); 
 
 	}
 

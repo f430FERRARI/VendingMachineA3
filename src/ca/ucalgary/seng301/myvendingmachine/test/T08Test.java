@@ -50,7 +50,7 @@ public class T08Test {
 	@Test
 	public void test() {
 
-		// Insert 100, 100, 25, 25
+		// Insert 100, 100, 100
 		try {
 			tMachine.getCoinSlot().addCoin(new Coin(100));
 			tMachine.getCoinSlot().addCoin(new Coin(100));

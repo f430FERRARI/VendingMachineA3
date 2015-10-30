@@ -18,7 +18,7 @@ public class U06Test {
 		new VendingMachineLogic(tMachine);
 	}
 
-	@Test(expected = ArrayIndexOutOfBoundsException.class) // TODO
+	@Test(expected = ArrayIndexOutOfBoundsException.class) 
 	public void test() {
 		// Press selection button three
 				tMachine.getSelectionButton(3).press();

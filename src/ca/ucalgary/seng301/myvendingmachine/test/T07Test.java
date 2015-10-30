@@ -57,7 +57,6 @@ public class T07Test {
 	@Test
 	public void test() {
 
-		// TODO: IS this the start of the test?
 		// Reconfigure the vending machine
 		List<String> popNames = new ArrayList<String>();
 		popNames.add("Coke");

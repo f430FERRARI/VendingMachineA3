@@ -51,7 +51,7 @@ public class T10Test {
 	@Test
 	public void test() {
 
-		// Insert 100, 100, 25, 25
+		// Insert 1, 139
 		try {
 			tMachine.getCoinSlot().addCoin(new Coin(1));
 			tMachine.getCoinSlot().addCoin(new Coin(139));
